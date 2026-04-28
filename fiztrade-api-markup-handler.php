@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: FizTrade API - Markup Handler
+ * Plugin Name: FizTrade API Markup Handler
  * Plugin URI: https://github.com/sumon665
- * Description: FizTrade API - Markup Handler
+ * Description: FizTrade API Markup Handler
  * Version: 1.0
  * Author: Md Sumon Mia
  * Author URI: https://github.com/sumon665
@@ -67,5 +67,4 @@ function add_integration( $integrations ) {
 	return $integrations;
 }
 
-/* call to order product custom code by Sumon Fiverr*/
 require DIRNAME( __FILE__ ) . '/includes/call_to_order.php';
